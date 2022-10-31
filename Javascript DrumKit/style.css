@@ -4,10 +4,13 @@ body{
 }
 /* Title  */
 h1{
-    font-family: 'Arvo', cursive;
-    font-size: 6rem;
-    color: #DBEDF3;
-    text-shadow: 3px 0 #DA0463;;
+    
+      font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /* body */
@@ -82,4 +85,6 @@ h1{
 footer{
     color:#DBEDF3;
     font-family: sans-serif;
+    background: #151414;
+  position: relative;
 }
