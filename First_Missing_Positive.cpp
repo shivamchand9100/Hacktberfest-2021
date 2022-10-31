@@ -10,6 +10,7 @@ Sample Output:
 2
 
 */
+//contributors: Udit Singla
 
 #include<iostream>
 #include<bits/stdc++.h>
@@ -32,10 +33,10 @@ int first_missing_positive(vector<int>& nums) {
 int main(){
     int n;
     cin>>n;
-    vector<int> v(n);
+    vector<int> arr(n);
     for(int i=0;i<n;i++){
-        cin>>v[i];
+        cin>>arr[i];
     }
-    cout<<first_missing_positive(v);
+    cout<<first_missing_positive(arr) << endl;
     return 0;
 }
