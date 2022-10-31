@@ -33,10 +33,11 @@ class Main
         {
             output[freq[i]] = i;
             freq[i]++;
+            total++;
         }
  
         // copy the output array back to the input array
-        Arrays.setAll(arr, i -> output[i]);
+        Arrays.setAll(arr, i -> output[i], total);
     }
  
     public static void main(String[] args)
