@@ -1,4 +1,4 @@
-//cpp code to demonstrate cout functionality
+//cpp code to demonstrate cout functionality.
 
 #include <bits/stdc++.h>
 
@@ -14,7 +14,7 @@ using namespace std;
 
 int main() {
 
-  cout << "Hello World";
+  cout << "Hey There! Hello World"<<endl;
 
 
 

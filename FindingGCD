@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int static dp[1001][1001];
+ 
+// Function to return gcd of a and b
+int gcd(int a, int b)
+{
+    
+    if (a == 0)
+        return b;
+    if (b == 0)
+        return a;
+ 
+    // base case
+    if (a == b)
+        return a;
+     
+    // if a value is already
+    // present in dp
+    if(dp[a][b] != -1)
+        return dp[a][b];
+ 
+    
+    if (a > b)
+        dp[a][b] = gcd(a-b, b);
+     
+    
+    else
+        dp[a][b] = gcd(a, b-a);
+     
+    return dp[a][b];
+}
+ 
+int main()
+{
+    
+    int a ,b;
+    cin>>a>>b;
+    memset(dp, -1, sizeof(dp));
+    cout<<"GCD of "<<a<<" and "<<b<<" is "<<gcd(a, b);
+    return 0;
+}

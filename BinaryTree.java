@@ -1,4 +1,4 @@
-//cpp code for binary tree
+//cpp code to demonstrate binary tree functionality
 
 public class BinaryTreeUse{
 

@@ -33,6 +33,6 @@ void bubble_sort(int arr[],int n)
 		
 	for(i=0;i<n;i++)
 	{
-		printf("%d  ",arr[i]);
+		printf("%d ",arr[i]);
 	}
 }

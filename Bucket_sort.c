@@ -140,7 +140,7 @@ void printBuckets(struct Node *list) {
 
 // Driver code
 int main(void) {
-  int array[NARRAY] = {42, 32, 33, 52, 37, 47, 51};
+  int array[NARRAY] = {41, 31, 32, 51, 38, 48, 50};
 
   printf("Initial array: ");
   print(array);

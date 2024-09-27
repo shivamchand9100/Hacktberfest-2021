@@ -27,8 +27,7 @@ void SieveOfEratosthenes(int n)
 			// numbers which are multiple
 			// of p and are less than p^2
 			// are already been marked.
-			for (int i = p * p; i <= n; i += p)
-				prime[i] = false;
+			for (int i = p * p; i <= n; i += p) prime[i] = false;
 		}
 	}
 

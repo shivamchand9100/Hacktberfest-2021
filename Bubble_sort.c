@@ -1,10 +1,10 @@
 // C program of Bubble sort
 #include <stdio.h>
 
-void swap(int *xp, int *yp)
+void swap(int *wp, int *yp)
 {
-	int temp = *xp;
-	*xp = *yp;
+	int temp = *wp;
+	*wp = *yp;
 	*yp = temp;
 }
 

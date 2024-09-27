@@ -20,11 +20,11 @@ int main()
 
     if(result==temp)
     {
-        cout<<"The number is an armstrong number";
+        cout << "The number is an armstrong number";
     }
     else
     {
-        cout<<"The number is not an armstrong number";
+        cout << "The number is not an armstrong number";
     }
 
 }

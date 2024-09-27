@@ -20,7 +20,8 @@ using namespace std;
 
 int main() {
 
-cout<<"Hello";
+cout<<"Hello!"<< end1;
+cout<<"world!"<<endl;
 
 
 
